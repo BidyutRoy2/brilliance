@@ -31,7 +31,7 @@ cd brilliance
 npm install
 ```
 
-3. Edit .env File & Fill Your Email & Password
+3. Edit .env File & Fill Your Email & Password (CTRL+X+Y+ENTER)
 ```
 nano .env
 ```
