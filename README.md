@@ -22,8 +22,8 @@ Automated bot for interacting with the Brilliance Global platform, handling logi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vikitoshi/Brilliance-Auto-Bot.git
-cd Brilliance-Auto-Bot
+git clone https://github.com/BidyutRoy2/brilliance.git
+cd brilliance
 ```
 
 2. Install dependencies:
@@ -31,8 +31,13 @@ cd Brilliance-Auto-Bot
 npm install
 ```
 
-3. Create a `.env` file in the root directory with your account credentials:
-```env
+3. Edit .env File & Fill Your Email & Password
+```
+nano .env
+```
+
+## Example
+```
 email_1=your_email1@example.com
 password_1=your_password1
 email_2=your_email2@example.com
@@ -40,14 +45,12 @@ password_2=your_password2
 # Add more accounts as needed
 ```
 
-4. (Optional) Add proxies to `proxies.txt` (one per line in format `http://user:pass@host:port`)
-
-## Usage
-
-Run the bot:
-```bash
-node index.js
+4. Run the bot:
 ```
+npm start
+```
+
+5. (Optional) Add proxies to `proxies.txt` (one per line in format `http://user:pass@host:port`)
 
 ## Configuration
 
